@@ -5,7 +5,7 @@ import org.junit.Assert;
 import org.junit.Test;
 
 public class MakingChangeTest {
-    public static transient String testData = "Nick50Tudor20";
+    public transient String testData = "Nick50Tudor20";
     @Test
     public void checkChangeIdentities(){
         Person person1 = new Person("Tudor",20);
