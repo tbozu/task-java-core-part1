@@ -1,6 +1,6 @@
 package org.example;
 
-public class arrayAscending {
+public class ArrayAscending {
 
     public static boolean checkArrayIfAscending(int sizeArray,int[] arrayCheck){
 

@@ -1,6 +1,6 @@
 package org.example;
 
-public class reverseString {
+public class ReverseString {
 
     public static String reversedStringWithStringBuffer(String initalString){
         StringBuffer stringBuffer = new StringBuffer(initalString);
