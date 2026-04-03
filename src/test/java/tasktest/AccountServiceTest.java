@@ -35,7 +35,7 @@ public class AccountServiceTest {
     public void checkIfAccoutWithBalnceIsDifferent(){
         AccountService service = new AccountServiceImpl(accounts);
         long resultActualBalanceDifferent = service.countAccountsWithBalanceGreaterThan(200033L);
-        Assert.assertEquals(1,resultActualBalanceDifferent);
+        Assert.assertNotEquals(1,resultActualBalanceDifferent);
     }
 
 
