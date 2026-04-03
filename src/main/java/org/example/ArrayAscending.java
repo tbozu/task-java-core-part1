@@ -6,6 +6,7 @@ public class ArrayAscending {
 
         int[] arrayTemp = new int[sizeArray];
         boolean isAscending = true;
+
         //copy old array in new array
         for (int i = 0; i<=arrayTemp.length-1;i++){
             arrayTemp[i] = arrayCheck[i];
